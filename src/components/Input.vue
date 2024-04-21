@@ -14,6 +14,10 @@ export default {
         convert: {
             type: Function,
             required: true
+        },
+        favourite: {
+            type: Function,
+            required: true
         }
     }
 }
