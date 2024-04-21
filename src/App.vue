@@ -40,7 +40,7 @@ export default {
         getFromFavs(index) {
             this.cryptoFirst = this.favs[index].from
             this.cryptoSecond = this.favs[index].to
-        }
+        },
         changeAmount(val) {
             this.amount = val
         },

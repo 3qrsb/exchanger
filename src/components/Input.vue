@@ -1,7 +1,11 @@
 <template>
-    <input min="0" type="number" @input="changeAmount($event.target.value)" placeholder = "Input number">
-    <button @click="convert()">Convert</button>
-    <button @click="favourite()" className="fav-button">Favourite</button>
+    <div>
+        <input min="0" type="number" @input="changeAmount($event.target.value)" placeholder="Input number">
+        <div>
+            <button @click="convert()">Convert</button>
+            <button @click="favourite()" class="fav-button">Favourite</button>
+        </div>
+    </div>
 </template>
 
 <script>
